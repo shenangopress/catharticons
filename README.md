@@ -40,10 +40,6 @@ $ git clone https://github.com/shenangopress/catharticons.git
 
 For best results in HTML applications, load the SVG inline and [style colors][svg-colors] with the CSS `fill` property.
 
-## Other informaiton
-
-Each SVG file is optimized thanks to [Kraken.io][kraken].
-
 ## Questions or Comments?
 
 To suggest an icon to add to this set:
@@ -57,7 +53,6 @@ Copyright &copy; 2019 by [Shenango Press][shenango-press]
 
 [git-clone]: https://help.github.com/en/articles/cloning-a-repository
 [git-submodule]: https://github.blog/2016-02-01-working-with-submodules/
-[kraken]: https://kraken.io/
 [license]: https://github.com/shenangopress/catharticons/blob/master/LICENSE
 [reubenlillie-github]: https://github.com/reubenlillie/
 [reubenlillie-twitter]: https://twitter.com/reubenlillie/
