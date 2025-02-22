@@ -22,7 +22,7 @@ npm run test
 ```js
 import catharticons from '@shenangopress/catharticons'
 
-catharticons('GitHub') // <svg id="catharticons_github" …>…</svg>
+catharticons('GitHub') // <svg id="catharticons-github" …>…</svg>
 ```
 
 ## Questions or Comments?

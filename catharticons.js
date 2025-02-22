@@ -21,7 +21,7 @@ var __dirname = dirname(fileURLToPath(import.meta.url))
  * @param {string} icon Name of icon
  * @param {string} [dir=svg] Directory of icons to read
  * @return {string} Contents of the SVG file for that icon
- * @example catharticons('GitHub') // <svg id="catharticons_github" …>…</svg>
+ * @example catharticons('GitHub') // <svg id="catharticons-github" …>…</svg>
  */
 export default (icon, dir = join(__dirname, 'svg')) => {
   /** @type {string[]} List the files in a directory */
