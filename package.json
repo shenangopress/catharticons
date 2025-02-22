@@ -1,0 +1,29 @@
+{
+  "name": "@shenangopress/catharticons",
+  "version": "1.0.0-alpha-1",
+  "description": "A minimalist SVG icon set",
+  "keywords": [
+    "svg",
+    "icons",
+    "minimalism"
+  ],
+  "scripts": {
+    "test": "node --test test/tests.js"
+  },
+  "homepage": "https://github.com/shenangopress/catharticons#readme",
+  "bugs": {
+    "url": "https://github.com/shenangopress/catharticons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenangopress/catharticons.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Reuben L. Lillie",
+    "email": "reubenlillie@gmail.com",
+    "url": "https://reubenlillie.com/"
+  },
+  "type": "module",
+  "main": "catharticons.js"
+}
