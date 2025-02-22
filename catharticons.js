@@ -5,7 +5,14 @@
 
 // Import native Node.js modules for working with the file system
 import {readdirSync, readFileSync} from 'fs'
-import {join} from 'path'
+import {dirname, join} from 'path'
+import {fileURLToPath} from 'url'
+
+/**
+ * Convert the file URL into a file path and trim down to the current directory
+ * @see {@link https://masteringjs.io/tutorials/node/__dirname-is-not-defined “How To Fix "__dirname is not defined" Error in Node.js” July 10, 2023}
+ */
+var __dirname = dirname(fileURLToPath(import.meta.url))
 
 /**
  * Get the SVG markup for an icon
@@ -16,7 +23,7 @@ import {join} from 'path'
  * @return {string} Contents of the SVG file for that icon
  * @example catharticons('GitHub') // <svg id="catharticons_github" …>…</svg>
  */
-export default (icon, dir = './svg') => {
+export default (icon, dir = join(__dirname, 'svg')) => {
   /** @type {string[]} List the files in a directory */
   var files = readdirSync(dir).map(file => file)
 
