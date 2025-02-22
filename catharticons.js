@@ -16,7 +16,7 @@ import {join} from 'path'
  * @return {string} Contents of the SVG file for that icon
  * @example catharticons('GitHub') // <svg id="catharticons_github" …>…</svg>
  */
-export default (icon, dir = 'svg') => {
+export default (icon, dir = './svg') => {
   /** @type {string[]} List the files in a directory */
   var files = readdirSync(dir).map(file => file)
 
